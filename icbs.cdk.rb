@@ -22,7 +22,7 @@ class IcbsCdk < Formula
   
    bottle do
       root_url "https://github.com/kay404/homebrew-icbs.cdk/releases/download/v1.7.0"
-      sha256 "6b353cae9d7943d4a82dcf3015eac98bc0a506745d92d2bb9f2090a5d8593b6c" => :big_sur
+      sha256 "353dd57774b2d1a7d33c99305618d4f44083262f39a420eb67b14dd611e104bc" => :big_sur
    end
    def install
       raise "Error, only supporting binary packages at this time"
